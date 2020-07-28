@@ -1,0 +1,65 @@
+html{width: 100%; height: 100%;}
+body{ width: 100%; height: 100%;  background-color: whitesmoke !important;}
+.containers{background-color: whitesmoke !important; width: 100%; height: 100%; padding-top: 0px;}
+.content_box
+{ 
+    padding: 0% 0% 0% 0%; 
+    margin : 0 auto;
+    height: auto; 
+    background-color: rgb(5, 5, 63);
+    border-radius: 50px;
+    max-width: 485px;    
+}
+
+.content1
+{
+    color: white;
+    padding-top:5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#return_page{
+    font-size: 3rem;
+    color:yellow;
+}
+.title{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.title > p{
+    font-size: 3rem;
+}
+.form-group #inputname{ text-align:left;}
+.form-group #inputid{text-align:left;}
+.form-group #inputpw{text-align:left;}
+.form-group #inputnick{text-algin:left;}
+.form-group > label{
+    1width:80%;
+    margin-top: 0%;
+    text-align:left;
+    
+}
+
+.form-group div{
+    width:100%;
+    margin-bottom: 5%;
+}
+#select_sex{margin-left:0px;}
+
+#all_select p{
+    font-weight: bold;
+}
+#signUpBtn{
+    margin-left: 0px;
+    text-align: center;
+}
+.form-group #signup_btn{
+    margin-top: 30px;
+}
+
+#cprg{
+    font-size: smaller;
+    text-align: right;
+    padding-right:25px;
+    color:yellow;
+}

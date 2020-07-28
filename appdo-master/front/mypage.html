@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Appdo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/rank_page.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/navigation_response.css">
+    <link rel="stylesheet" href="css/mypage.css">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src=".\lib\kakao.js"></script>
+</head>
+<section id="wrap">
+    <nav id="navigation_web" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid bg-danger">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <img src="images/logo_.PNG" alt="Appdo">
+                </a>
+            </div>
+            <div class="navbar-nav-scroll">
+                <ul class="nav navbar-nav bd-navbar-nav flex-row">
+                    <li><a href="#">메뉴 1</a></li>
+                    <li><a href="#">남자 순위</a></li>
+                    <li><a href="/rank">여자 순위</a></li>
+                    <li><a href="#">메뉴 4</a></li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><input type="text" placeholder="Search..."></li>
+                <li><a href="/process/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="navigation_app">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/">홈</a>
+            <a href="#">남자 순위</a>
+            <a href="/rank">여자 순위</a>
+            <a href="/process/logout">로그아웃</a>
+        </div>
+        <span onclick="openNav()">
+            <div class="container">
+                <div id="ybar1" class="bar1"></div>
+                <div id="ybar2" class="bar2"></div>
+                <div id="ybar3" class="bar3"></div>
+            </div>
+        </span>    
+    </nav>
+</section>
+<body>
+    <div id="information_box" class="container-fluid">
+        <div id="information_box_row" class="row">
+            <div id="information_box_img" class="col-xs-4">     
+                <img src = "./images/no_img.PNG" class="img-thumbnail img-responsive" alt="main_image">
+            </div>
+            <div id="information_box_inf"  class="col-xs-4">
+                <p>이름: </p><p id="i_name">-</p>
+         
+                <p>성별</p>
+       
+                <p>생성일</p>
+                
+                <p>좋아요 0</p>
+                <br>
+                <button id="rank_update" type="button" class="btn btn-default">랭킹등록</button>
+            </div>
+            <div id="information_box_rank" class="col-xs-4">
+                <img src = "./images/gold_star.png">
+                <!-- <strong><h4>랭크 Iron</h4></strong> -->
+            </div>
+        </div>
+    </div>
+
+    <div class = main_box>
+        <div id="history"> history</div>
+        <ul class="test">
+            <li>
+                <img id="test_image" src="./images/gold_star.png" alt="test"/>
+            </li>
+            <li id="test_info">
+                <p>19.05.30</p>
+                <p>좋아요 50</p>
+                <p>아이유</p>
+            </li>
+            <li id="test_info2">
+                <p>좋아요 50</p>
+            </li>
+        </ul>
+        <ul class="test">
+            <li>
+                <img id="test_image" src="./images/silver_star.png" alt="test"/>
+            </li>
+            <li id="test_info">
+                <p>20.04.13</p>
+                <p>좋아요 25</p>
+                <p>이해리</p>
+            </li>
+            <li id="test_info2">
+                <p>좋아요 25</p>
+            </li>
+        </ul>
+        <ul class="test">
+            <li>
+                <img id="test_image" src="./images/bronze_star.png" alt="test"/>
+            </li>
+            <li id="test_info">
+                <p>20.06.05</p>
+                <p>좋아요 12</p>
+                <p>아이린</p>
+            </li>
+            <li id="test_info2">
+                <p>좋아요 수</p>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>저희  <b>Appdo</b>의 이상형 생성 프로그램을 이용해주신 모든 분들께 감사의 인사를 드립니다.
+        <br/>
+        본 이상형 월드컵을 통해 생성된 이미지의 저작권은 Appdo에 있습니다.
+        <br/>
+        문의: <i></i> 
+        </p>
+    </footer>
+</body>
+    </section>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="./lib/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="./lib/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
+    <script type="text/javascript" src="./js/ui.js"></script>
+    <script type="text/javascript" src="./js/login.js"></script>
+    <script type="text/javascript" src="./js/mypage.js"></script>
+    <script src="./js/nav.js"></script>
+    
+</body>
+</html>
